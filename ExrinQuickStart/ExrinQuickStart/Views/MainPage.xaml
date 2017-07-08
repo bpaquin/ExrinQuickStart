@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<proxy:PageProxy xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:proxy="clr-namespace:ExrinQuickStart.Proxy"
+             x:Class="ExrinQuickStart.Views.MainPage"
+		     Title="Home">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin Forms!" />
+			<Button Text="Navigate To About Page" Command="{Binding NavigationCommand}" />
+		</StackLayout>
+    </ContentPage.Content>
+</proxy:PageProxy>
