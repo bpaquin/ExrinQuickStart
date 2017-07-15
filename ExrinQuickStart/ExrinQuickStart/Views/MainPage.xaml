@@ -7,7 +7,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Welcome to Xamarin Forms!" />
-			<Button Text="Navigate To About Page" Command="{Binding NavigationCommand}" />
+			<Button Text="Navigate To About Page" Command="{Binding AboutCommand}" />
 		</StackLayout>
     </ContentPage.Content>
 </proxy:PageProxy>

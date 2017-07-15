@@ -5,6 +5,9 @@ using Xamarin.Forms;
 
 namespace ExrinQuickStart
 {
+	/// <summary>
+	/// Responsible for setting up all resources the application will use.
+	/// </summary>
 	public class Bootstrapper : Exrin.Framework.Bootstrapper
 	{
 		private static Bootstrapper _instance = null;

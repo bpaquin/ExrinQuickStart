@@ -152,18 +152,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Exrin\Exrin\Exrin.Abstraction\Exrin.Abstraction.csproj">
-      <Project>{47e3ecc7-139e-4e9d-b688-7bb9a7a6ad9d}</Project>
-      <Name>Exrin.Abstraction</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Exrin\Exrin\Exrin.Common\Exrin.Common.csproj">
-      <Project>{48ebdb24-8ed3-4ca4-bf9e-c3576110ff0d}</Project>
-      <Name>Exrin.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Exrin\Exrin\Exrin.Framework\Exrin.Framework.csproj">
-      <Project>{2a76e4ef-3915-480e-baa8-bae65313cf29}</Project>
-      <Name>Exrin.Framework</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ExrinQuickStart\ExrinQuickStart.csproj">
       <Project>{70445474-fc5b-4d0e-b2a1-6559758c13cd}</Project>
       <Name>ExrinQuickStart</Name>

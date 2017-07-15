@@ -4,6 +4,9 @@ using Xamarin.Forms;
 
 namespace ExrinQuickStart.Proxy
 {
+	/// <summary>
+	/// Implements IView on all ContentPages. ALL your views must inherit from this proxy.
+	/// </summary>
 	public class PageProxy: ContentPage, IView
 	{
 		protected override bool OnBackButtonPressed()
